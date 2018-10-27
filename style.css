@@ -6,7 +6,7 @@ html, body{
 }
 #camera, #camera--sensor, #camera--view, #camera--output {
 	position: fixed;
-	height: 33%;
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
