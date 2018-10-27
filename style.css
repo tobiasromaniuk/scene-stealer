@@ -4,7 +4,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 }
-#camera, #camera--view, #camera--output{
+#camera, #camera--view, {
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -40,7 +40,7 @@ position: fixed;
 	transition: all 0.5s ease-in;
 	border: solid 3px white;
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-	top: 20px;
+	top: 55%;
 	right: 20px;
 	z-index: 2;
 }
