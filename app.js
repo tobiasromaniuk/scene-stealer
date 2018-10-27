@@ -1,6 +1,5 @@
 // set constraints
 var constraints = { video: { facingMode: "user" }, audio: false };
-
 // Define constants
 const cameraView = document.querySelector("#camera--view"),
 	cameraOutput = document.querySelector("#camera--output"),
@@ -17,7 +16,7 @@ function cameraStart() {
 	.catch(function(error) {
 		console.error("Oops. It's broken.", error);
 	});
-
+}
 //Take a picture when the shutter button (cameraTrigger) is hit
 cameraTrigger.onclick = function() {
 	cameraSensor.width = cameraView.videoWidth;
