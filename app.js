@@ -25,8 +25,5 @@ cameraTrigger.onclick = function() {
 	cameraOutput.src = cameraSensor.toDataURL("image/webp");
 	cameraOutput.classList.add("taken");
 };
-
 //start the video stream when the window loads (the camera lens view)
 window.addEventListener("load", cameraStart, false);
-
-}
