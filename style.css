@@ -4,13 +4,13 @@ html, body{
 	height: 100%;
 	width: 100%;
 }
-#camera, #camera--sensor, #camera--output{
+#camera, #camera--view, #camera--output{
 	position: fixed;
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
-#camera--view{
+#camera--sensor{
 position: fixed;
 	height: 33%;
 	width: 100%;
